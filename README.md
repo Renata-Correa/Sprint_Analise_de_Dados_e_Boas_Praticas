@@ -3,7 +3,7 @@
 # MVP - Sprint Análise de Dados e Boas Práticas
 PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
 
-## 👩‍💻 Autora
+### 👩‍💻 Autora
 
 *Rê Corrêa* | Gerente de Projetos na act.3 | Engenharia de Dados | Analytics
 
@@ -13,7 +13,7 @@ Apaixonada por dados, pipelines bem feitos e dashboards que contam histórias �
 Análise de desempenho de influenciadores digitais no contexto esportivo, com foco em atletas de CrossFit patrocinados pela Adidas.
 
 ## ❓ Problema de Negócio
-No contexto do marketing de influência, compreender o que gera maior engajamento é essencial para otimizar campanhas e maximizar resultados.
+No contexto do marketing de influência, compreender o que gera maior engajamento é essencial para otimizar campanhas e maximizar resultados. A partir da base `Atletas CrossFit - adidas 2024_2025` (também disponível em [Atletas CrossFit - adidas 2024_2025](https://raw.githubusercontent.com/Renata-Correa/Sprint_Analise_de_Dados_e_Boas_Praticas/main/Atletas%20CrossFit%20-%20adidas%202024_2025.csv)) busquei responder perguntas de negócio relacionadas a exposição de marcas esportivas
 
 Dessa forma, o problema deste projeto é:
 
