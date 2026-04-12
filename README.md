@@ -1,4 +1,7 @@
-# 🏋️‍♀️ Análise de Engajamento de Atletas de CrossFit da Adidas
+# 🏆 Análise do Brasileirão Série A
+
+## 📊 Sobre o projeto
+Análise exploratória e modelo preditivo utilizando dados reais do Campeonato Brasileiro.
 
 # MVP - Sprint Análise de Dados e Boas Práticas
 PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
@@ -35,6 +38,58 @@ Este é um problema de análise exploratória com potencial aplicação em apren
 - H5: O tipo de produto promovido impacta o nível de interação
 
 ---
+
+## 📊 Sobre o projeto
+Análise exploratória e modelo preditivo utilizando dados reais do Campeonato Brasileiro.
+
+---
+
+## 🎯 Objetivo
+Identificar fatores que influenciam os resultados das partidas e prever desfechos com base em dados históricos.
+
+---
+
+## 📂 Dataset
+https://github.com/adaoduque/Brasileirao_Dataset
+
+---
+
+## 🛠️ Tecnologias
+- Python
+- Pandas
+- Seaborn / Matplotlib
+- Scikit-learn
+
+---
+
+## 📈 Análises realizadas
+- Distribuição de gols
+- Fator casa
+- Ranking de ataques e defesas
+- Evolução por temporada
+
+---
+
+## 🤖 Modelo preditivo
+Random Forest utilizando estatísticas históricas dos times.
+
+---
+
+## 🧠 Principais insights
+- O fator casa influencia resultados
+- Ataque não garante vitória
+- Defesa consistente é diferencial
+
+---
+
+## 🚀 Como executar
+1. Abrir no Google Colab
+2. Executar todas as células
+
+---
+
+## 👩‍💻 Autor
+Projeto desenvolvido para pós-graduação em análise de dados
 
 ## 📌 Relevância
 Os resultados deste estudo podem apoiar estratégias de marketing digital, auxiliando na escolha de formatos, plataformas e influenciadores mais eficientes.
