@@ -1,24 +1,40 @@
-# Sprint_Analise_de_Dados_e_Boas_Praticas
+# 🏋️‍♀️ Análise de Engajamento de Atletas de CrossFit da Adidas
 
-# 📌Definição do Problema
+# MVP - Sprint Análise de Dados e Boas Práticas
+PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
 
-## Descrição
-Este projeto tem como objetivo analisar dados relacionados a Adidas training, buscando identificar padrões de comportamento, desempenho e possíveis insights relevantes para otimização de performance.
+## 👩‍💻 Autora
 
-## Tipo de problema
-Este é um problema de análise exploratória de dados, podendo futuramente ser utilizado em:
-- Aprendizado supervisionado (ex: previsão de performance)
-- Aprendizado não supervisionado (ex: segmentação de usuários)
+*Rê Corrêa* | Gerente de Projetos na act.3 | Engenharia de Dados | Analytics
 
-## Hipóteses
-- Usuários com maior frequência de treino apresentam melhor desempenho
-- Existe relação entre duração do treino e intensidade
-- Certos tipos de treino geram melhores resultados
+Apaixonada por dados, pipelines bem feitos e dashboards que contam histórias 📊✨
 
-## Restrições
-- Possíveis dados faltantes
-- Diferenças de escala entre variáveis
-- Dados categóricos que precisam ser tratados
+## 🎯 Tema
+Análise de desempenho de influenciadores digitais no contexto esportivo, com foco em atletas de CrossFit patrocinados pela Adidas.
 
-## Atributos
-(Preencher com base no dataset)
+## ❓ Problema de Negócio
+No contexto do marketing de influência, compreender o que gera maior engajamento é essencial para otimizar campanhas e maximizar resultados.
+
+Dessa forma, o problema deste projeto é:
+
+👉 Quais fatores influenciam o engajamento das postagens dos atletas de CrossFit da Adidas nas redes sociais?
+
+---
+
+## 🤖 Tipo de Problema
+Este é um problema de análise exploratória com potencial aplicação em aprendizado supervisionado, tendo como variável alvo o Engagement Rate.
+
+---
+
+## 💡 Hipóteses
+
+- H1: Postagens em vídeo apresentam maior engajamento do que outros formatos
+- H2: Um maior número de hashtags está associado a maior engajamento
+- H3: A plataforma utilizada influencia significativamente o engajamento
+- H4: Existem atletas com desempenho consistentemente superior
+- H5: O tipo de produto promovido impacta o nível de interação
+
+---
+
+## 📌 Relevância
+Os resultados deste estudo podem apoiar estratégias de marketing digital, auxiliando na escolha de formatos, plataformas e influenciadores mais eficientes.
