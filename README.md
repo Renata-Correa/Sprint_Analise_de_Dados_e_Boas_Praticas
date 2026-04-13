@@ -67,12 +67,6 @@ Fonte: Dados públicos do Campeonato Brasileiro
 
 ---
 
-## 📈 Exemplos de Visualizações
-
-*(adicione prints dos gráficos aqui se quiser)*
-
----
-
 ## 🚀 Como Executar o Projeto
 
 1. Clone o repositório:
