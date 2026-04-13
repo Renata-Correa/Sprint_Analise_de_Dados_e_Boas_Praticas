@@ -1,95 +1,111 @@
-# 🏆 Análise do Brasileirão Série A
-
-## 📊 Sobre o projeto
-Análise exploratória e modelo preditivo utilizando dados reais do Campeonato Brasileiro.
-
-# MVP - Sprint Análise de Dados e Boas Práticas
-PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
-
-### 👩‍💻 Autora
-
-*Rê Corrêa* | Gerente de Projetos na act.3 | Engenharia de Dados | Analytics
-
-Apaixonada por dados, pipelines bem feitos e dashboards que contam histórias 📊✨
-
-## 🎯 Tema
-Análise de desempenho de influenciadores digitais no contexto esportivo, com foco em atletas de CrossFit patrocinados pela Adidas.
-
-## ❓ Problema de Negócio
-No contexto do marketing de influência, compreender o que gera maior engajamento é essencial para otimizar campanhas e maximizar resultados. A partir da base `Atletas CrossFit - adidas 2024_2025` (também disponível em [Atletas CrossFit - adidas 2024_2025](https://raw.githubusercontent.com/Renata-Correa/Sprint_Analise_de_Dados_e_Boas_Praticas/main/Atletas%20CrossFit%20-%20adidas%202024_2025.csv)) busquei responder perguntas de negócio relacionadas a exposição de marcas esportivas
-
-Dessa forma, o problema deste projeto é:
-
-👉 Quais fatores influenciam o engajamento das postagens dos atletas de CrossFit da Adidas nas redes sociais?
-
----
-
-## 🤖 Tipo de Problema
-Este é um problema de análise exploratória com potencial aplicação em aprendizado supervisionado, tendo como variável alvo o Engagement Rate.
-
----
-
-## 💡 Hipóteses
-
-- H1: Postagens em vídeo apresentam maior engajamento do que outros formatos
-- H2: Um maior número de hashtags está associado a maior engajamento
-- H3: A plataforma utilizada influencia significativamente o engajamento
-- H4: Existem atletas com desempenho consistentemente superior
-- H5: O tipo de produto promovido impacta o nível de interação
-
----
-
-## 📊 Sobre o projeto
-Análise exploratória e modelo preditivo utilizando dados reais do Campeonato Brasileiro.
-
----
+# 🏆 Análise de Dados do Campeonato Brasileiro
 
 ## 🎯 Objetivo
-Identificar fatores que influenciam os resultados das partidas e prever desfechos com base em dados históricos.
+
+Este projeto tem como objetivo realizar uma análise exploratória de dados do Campeonato Brasileiro, buscando identificar padrões, tendências e insights relevantes que possam apoiar a tomada de decisão baseada em dados.
 
 ---
 
-## 📂 Dataset
-https://github.com/adaoduque/Brasileirao_Dataset
+## 🧠 Problema de Negócio
+
+No contexto esportivo, compreender fatores que influenciam o desempenho dos times é essencial para estratégias competitivas.
+
+Este projeto busca responder perguntas como:
+
+* Times mandantes possuem vantagem significativa?
+* Existe padrão na quantidade de gols ao longo das temporadas?
+* Há equipes com desempenho consistentemente superior?
 
 ---
 
-## 🛠️ Tecnologias
-- Python
-- Pandas
-- Seaborn / Matplotlib
-- Scikit-learn
+## 🔍 Hipóteses
+
+* Times jogando em casa têm maior probabilidade de vitória
+* A média de gols varia ao longo dos anos
+* Alguns times apresentam dominância histórica no campeonato
 
 ---
 
-## 📈 Análises realizadas
-- Distribuição de gols
-- Fator casa
-- Ranking de ataques e defesas
-- Evolução por temporada
+## 📁 Dataset
+
+O dataset utilizado contém informações históricas sobre partidas do Campeonato Brasileiro, incluindo:
+
+* Times mandante e visitante
+* Gols marcados
+* Data das partidas
+* Resultados
+
+Fonte: Dados públicos do Campeonato Brasileiro
 
 ---
 
-## 🤖 Modelo preditivo
-Random Forest utilizando estatísticas históricas dos times.
+## 🛠️ Tecnologias Utilizadas
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Google Colab
 
 ---
 
-## 🧠 Principais insights
-- O fator casa influencia resultados
-- Ataque não garante vitória
-- Defesa consistente é diferencial
+## 🔄 Etapas da Análise
+
+1. Importação e entendimento dos dados
+2. Limpeza e tratamento (valores nulos, tipos, consistência)
+3. Análise exploratória
+4. Visualização de dados
+5. Extração de insights
 
 ---
 
-## 🚀 Como executar
-1. Abrir no Google Colab
-2. Executar todas as células
+## 📊 Principais Insights
+
+* Foi identificada vantagem relevante para times mandantes
+* A distribuição de gols apresenta variações ao longo dos anos
+* Alguns clubes demonstram maior consistência em desempenho
 
 ---
 
-## 👩‍💻 Autor
-Projeto desenvolvido para pós-graduação em análise de dados
+## 📈 Exemplos de Visualizações
 
-## 📌 Relevância
-Os resultados deste estudo podem apoiar estratégias de marketing digital, auxiliando na escolha de formatos, plataformas e influenciadores mais eficientes.
+*(adicione prints dos gráficos aqui se quiser)*
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Renata-Correa/Sprint_Analise_de_Dados_e_Boas_Praticas.git
+```
+
+2. Acesse a pasta:
+
+```bash
+cd Sprint_Analise_de_Dados_e_Boas_Praticas
+```
+
+3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Execute o notebook no Google Colab ou Jupyter Notebook
+
+---
+
+## 📌 Conclusão
+
+A análise evidenciou padrões relevantes no desempenho das equipes, especialmente relacionados ao fator mando de campo.
+
+Esses insights podem ser utilizados para embasar decisões estratégicas no contexto esportivo.
+
+---
+
+## 👩‍💻 Autora
+
+**Renata Corrêa**
+Projeto desenvolvido para a disciplina de Análise de Dados e Boas Práticas - PUC-RJ
